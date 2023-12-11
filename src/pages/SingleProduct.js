@@ -9,7 +9,7 @@ import { VscGitCompare } from "react-icons/vsc";
 import { AiOutlineHeart } from "react-icons/ai";
 import Container from "../components/Container";
 const SingleProduct = () => {
-  const [orderedProduct, setOrderedProduct] = useState(true);
+  const [orderedProduct] = useState(true);
   const props = {
     width: 200,
     height: 500,
